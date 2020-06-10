@@ -1,0 +1,10 @@
+// background colors
+$body-color: #FFE0BC;
+// height
+$app-height: 100vh;
+
+.App{
+  background: $body-color;
+  min-height: $app-height;
+}
+

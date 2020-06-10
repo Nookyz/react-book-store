@@ -1,0 +1,39 @@
+// background
+$header-color: #FF756B;
+// height
+$header-height: 50px;
+// color
+$active-link: #fff;
+$default-color:  #414042;
+
+.App-header {
+  background: $header-color;
+  height: $header-height;
+  color: $default-color;
+}
+.header-container{
+  height: 100%;
+  margin: auto;
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  a{
+    padding: 15px 20px;
+    
+    text-align: center;
+    text-decoration: none;    
+    color: $default-color;
+    cursor: pointer;
+  }
+  a:hover{
+    background-color: rgba(0,0,0, 0.1); 
+  }
+  .active{
+    color: $active-link;
+  }
+}
